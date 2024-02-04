@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A4DA9C2AD75E3B00A1CD5D /* ComprasUSALibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DA9B2AD75E3B00A1CD5D /* ComprasUSALibApp.swift */; };
+		07A4DA9E2AD75E3B00A1CD5D /* CompraListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DA9D2AD75E3B00A1CD5D /* CompraListingView.swift */; };
+		07A4DAA02AD75E3B00A1CD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A4DA9F2AD75E3B00A1CD5D /* Assets.xcassets */; };
+		07A4DAA32AD75E3B00A1CD5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A4DAA22AD75E3B00A1CD5D /* Preview Assets.xcassets */; };
+		07A4DAAC2AD7604900A1CD5D /* Compra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DAAB2AD7604900A1CD5D /* Compra.swift */; };
+		07A4DAAE2AD7734100A1CD5D /* CompraListingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DAAD2AD7734100A1CD5D /* CompraListingRow.swift */; };
+		07A4DAB02AD7794F00A1CD5D /* CompraDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DAAF2AD7794F00A1CD5D /* CompraDetailView.swift */; };
+		07A4DACE2ADDFB0000A1CD5D /* CompraFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DACD2ADDFB0000A1CD5D /* CompraFormView.swift */; };
+		07A4DAD02ADE1D2B00A1CD5D /* ComprasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4DACF2ADE1D2B00A1CD5D /* ComprasView.swift */; };
+		07D873E72AE0B1BA0000DBDD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D873E62AE0B1BA0000DBDD /* MainView.swift */; };
+		07D873F12AE0B3170000DBDD /* ResumoDaCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D873F02AE0B3170000DBDD /* ResumoDaCompra.swift */; };
+		07D873F32AE0B3290000DBDD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D873F22AE0B3290000DBDD /* SettingsView.swift */; };
+		07F263FF2AE733550034485B /* AppStorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F263FE2AE733550034485B /* AppStorageKeys.swift */; };
+		07F264032AE737AC0034485B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07F264022AE737AC0034485B /* Settings.bundle */; };
+		07F264052AE7445D0034485B /* ItunesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F264042AE7445D0034485B /* ItunesResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A4DA982AD75E3B00A1CD5D /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A4DA9B2AD75E3B00A1CD5D /* ComprasUSALibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasUSALibApp.swift; sourceTree = "<group>"; };
+		07A4DA9D2AD75E3B00A1CD5D /* CompraListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraListingView.swift; sourceTree = "<group>"; };
+		07A4DA9F2AD75E3B00A1CD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07A4DAA22AD75E3B00A1CD5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07A4DAAB2AD7604900A1CD5D /* Compra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compra.swift; sourceTree = "<group>"; };
+		07A4DAAD2AD7734100A1CD5D /* CompraListingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraListingRow.swift; sourceTree = "<group>"; };
+		07A4DAAF2AD7794F00A1CD5D /* CompraDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraDetailView.swift; sourceTree = "<group>"; };
+		07A4DACD2ADDFB0000A1CD5D /* CompraFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraFormView.swift; sourceTree = "<group>"; };
+		07A4DACF2ADE1D2B00A1CD5D /* ComprasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasView.swift; sourceTree = "<group>"; };
+		07D873E62AE0B1BA0000DBDD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		07D873F02AE0B3170000DBDD /* ResumoDaCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumoDaCompra.swift; sourceTree = "<group>"; };
+		07D873F22AE0B3290000DBDD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		07F263FE2AE733550034485B /* AppStorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKeys.swift; sourceTree = "<group>"; };
+		07F264022AE737AC0034485B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		07F264042AE7445D0034485B /* ItunesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A4DA952AD75E3B00A1CD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A4DA8F2AD75E3B00A1CD5D = {
+			isa = PBXGroup;
+			children = (
+				07A4DA9A2AD75E3B00A1CD5D /* ComprasUSALib */,
+				07A4DA992AD75E3B00A1CD5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A4DA992AD75E3B00A1CD5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A4DA982AD75E3B00A1CD5D /* ComprasUSA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A4DA9A2AD75E3B00A1CD5D /* ComprasUSALib */ = {
+			isa = PBXGroup;
+			children = (
+				07A4DA9B2AD75E3B00A1CD5D /* ComprasUSALibApp.swift */,
+				07D873E82AE0B2090000DBDD /* Main */,
+				07D873EF2AE0B2B90000DBDD /* ResumoDaCompra */,
+				07D873EA2AE0B23B0000DBDD /* Compra */,
+				07D873EE2AE0B2A90000DBDD /* Settings */,
+				07D873ED2AE0B28B0000DBDD /* Files */,
+				07A4DA9F2AD75E3B00A1CD5D /* Assets.xcassets */,
+				07A4DAA12AD75E3B00A1CD5D /* Preview Content */,
+			);
+			path = ComprasUSALib;
+			sourceTree = "<group>";
+		};
+		07A4DAA12AD75E3B00A1CD5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07A4DAA22AD75E3B00A1CD5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07D873E82AE0B2090000DBDD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				07D873E92AE0B2140000DBDD /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		07D873E92AE0B2140000DBDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07D873E62AE0B1BA0000DBDD /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07D873EA2AE0B23B0000DBDD /* Compra */ = {
+			isa = PBXGroup;
+			children = (
+				07D873EB2AE0B24C0000DBDD /* View */,
+				07D873EC2AE0B2530000DBDD /* Model */,
+			);
+			path = Compra;
+			sourceTree = "<group>";
+		};
+		07D873EB2AE0B24C0000DBDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07A4DACF2ADE1D2B00A1CD5D /* ComprasView.swift */,
+				07A4DA9D2AD75E3B00A1CD5D /* CompraListingView.swift */,
+				07A4DAAD2AD7734100A1CD5D /* CompraListingRow.swift */,
+				07A4DAAF2AD7794F00A1CD5D /* CompraDetailView.swift */,
+				07A4DACD2ADDFB0000A1CD5D /* CompraFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07D873EC2AE0B2530000DBDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07A4DAAB2AD7604900A1CD5D /* Compra.swift */,
+				07F264042AE7445D0034485B /* ItunesResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07D873ED2AE0B28B0000DBDD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F264022AE737AC0034485B /* Settings.bundle */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		07D873EE2AE0B2A90000DBDD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				07F263FD2AE733310034485B /* Model */,
+				07F263FC2AE733260034485B /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		07D873EF2AE0B2B90000DBDD /* ResumoDaCompra */ = {
+			isa = PBXGroup;
+			children = (
+				07D873F02AE0B3170000DBDD /* ResumoDaCompra.swift */,
+			);
+			path = ResumoDaCompra;
+			sourceTree = "<group>";
+		};
+		07F263FC2AE733260034485B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07D873F22AE0B3290000DBDD /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F263FD2AE733310034485B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07F263FE2AE733550034485B /* AppStorageKeys.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A4DA972AD75E3B00A1CD5D /* ComprasUSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A4DAA62AD75E3B00A1CD5D /* Build configuration list for PBXNativeTarget "ComprasUSA" */;
+			buildPhases = (
+				07A4DA942AD75E3B00A1CD5D /* Sources */,
+				07A4DA952AD75E3B00A1CD5D /* Frameworks */,
+				07A4DA962AD75E3B00A1CD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComprasUSA;
+			productName = MoviesLib;
+			productReference = 07A4DA982AD75E3B00A1CD5D /* ComprasUSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A4DA902AD75E3B00A1CD5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					07A4DA972AD75E3B00A1CD5D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 07A4DA932AD75E3B00A1CD5D /* Build configuration list for PBXProject "ComprasUSA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07A4DA8F2AD75E3B00A1CD5D;
+			productRefGroup = 07A4DA992AD75E3B00A1CD5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A4DA972AD75E3B00A1CD5D /* ComprasUSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A4DA962AD75E3B00A1CD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F264032AE737AC0034485B /* Settings.bundle in Resources */,
+				07A4DAA32AD75E3B00A1CD5D /* Preview Assets.xcassets in Resources */,
+				07A4DAA02AD75E3B00A1CD5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A4DA942AD75E3B00A1CD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F263FF2AE733550034485B /* AppStorageKeys.swift in Sources */,
+				07A4DAB02AD7794F00A1CD5D /* CompraDetailView.swift in Sources */,
+				07D873E72AE0B1BA0000DBDD /* MainView.swift in Sources */,
+				07A4DAD02ADE1D2B00A1CD5D /* ComprasView.swift in Sources */,
+				07A4DACE2ADDFB0000A1CD5D /* CompraFormView.swift in Sources */,
+				07F264052AE7445D0034485B /* ItunesResult.swift in Sources */,
+				07A4DA9E2AD75E3B00A1CD5D /* CompraListingView.swift in Sources */,
+				07D873F32AE0B3290000DBDD /* SettingsView.swift in Sources */,
+				07A4DA9C2AD75E3B00A1CD5D /* ComprasUSALibApp.swift in Sources */,
+				07A4DAAE2AD7734100A1CD5D /* CompraListingRow.swift in Sources */,
+				07D873F12AE0B3170000DBDD /* ResumoDaCompra.swift in Sources */,
+				07A4DAAC2AD7604900A1CD5D /* Compra.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07A4DAA42AD75E3B00A1CD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07A4DAA52AD75E3B00A1CD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A4DAA72AD75E3B00A1CD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ComprasUSALib/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9HER6Y524;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Libera essa merda seu arrombado";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.ComprasUSALib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07A4DAA82AD75E3B00A1CD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ComprasUSALib/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9HER6Y524;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Libera essa merda seu arrombado";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.ComprasUSALib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A4DA932AD75E3B00A1CD5D /* Build configuration list for PBXProject "ComprasUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A4DAA42AD75E3B00A1CD5D /* Debug */,
+				07A4DAA52AD75E3B00A1CD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A4DAA62AD75E3B00A1CD5D /* Build configuration list for PBXNativeTarget "ComprasUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A4DAA72AD75E3B00A1CD5D /* Debug */,
+				07A4DAA82AD75E3B00A1CD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A4DA902AD75E3B00A1CD5D /* Project object */;
+}
